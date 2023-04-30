@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "showhandle",
+  "version": "${version}",
+  "name": "Allink",
+  "description": "Shows the window handle in the Minecraft title",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://github.com/allinkdev/ShowHandle/",
+    "sources": "https://github.com/allinkdev/ShowHandle/",
+    "issues": "https://github.com/allinkdev/ShowHandle/issues/"
+  },
+  "license": "UNLICENSE",
+  "environment": "client",
+  "mixins": [
+    "showhandle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
